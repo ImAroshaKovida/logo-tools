@@ -29,10 +29,10 @@ caption = """
 
 #◇───────────────────────────────────────◇ 
 
-@logo.on_message(filters.command("start"))
+@logo.on_message(filters.command(""))
 async def start(client,message):
-    await message.reply_chat_action("typing")
-    await message.reply("🍀 Hi I am Logo Generate Bot Telegram...")
+    await message.reply_chat_action("")
+    await message.reply("")
 
 
 #◇───────────────────────────────────────◇ 
